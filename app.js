@@ -15,7 +15,7 @@ function calcularGanancias() {
   let inversionNivel3 = nivel3 * gasto;
   document.getElementById("nivel3").value = nivel3
   let gananciaN3 = Math.round(inversionNivel3 * 0.0021)
-  document.getElementById("consumo2").value = inversionNivel3
+  document.getElementById("consumo3").value = inversionNivel3
   
 
   let inversionNivel4 = nivel4 * gasto;
